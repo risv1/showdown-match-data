@@ -8,7 +8,10 @@ import (
 func main() {
 	app := fiber.New()
 
-	routes.MatchRoutes(app)
+	routes.UserRoutes(app)
+	routes.ReplaysRoutes(app)
+	routes.DexRoutes(app)
+	routes.LadderRoutes(app)
 
 	app.Listen(":8000")
 }
