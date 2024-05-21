@@ -2,7 +2,6 @@ package routes
 
 import (
 	"showdown-match-data/src/controllers"
-
 	"github.com/gofiber/fiber/v2"
 )
 
